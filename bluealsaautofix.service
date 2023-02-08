@@ -1,0 +1,10 @@
+[Unit]
+Description=blue alsa config autofix service
+
+[Service]
+Restart=no
+TimeoutStartSec=1200
+ExecStart=/usr/sbin/bluealsaautofix
+
+[Install]
+WantedBy=multi-user.target

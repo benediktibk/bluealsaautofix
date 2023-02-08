@@ -23,7 +23,8 @@ if __name__ == "__main__":
             with open(configFileLocation, "w") as configFile:
                 configFile.write("AUDIODEV=alsaequal\n")
                 configFile.write("BUFFERTIME=500000\n")
-            
+
+            print("configured blue alsa aplay successfully, exiting")            
             sys.exit(0)
         elif resultAsString == "0\n":
             print("startup has not yet completed, waiting for it to happen")

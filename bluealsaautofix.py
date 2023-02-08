@@ -6,8 +6,8 @@ import subprocess
 import time
 
 checkTimerInSeconds = 1
-#configFileLocation = "/etc/bluealsaaplay.conf"
-configFileLocation = "/tmp/bluealsaaplay.conf"
+configFileLocation = "/etc/bluealsaaplay.conf"
+#configFileLocation = "/tmp/bluealsaaplay.conf"
 
 if __name__ == "__main__":
     setproctitle.setproctitle("bluealsaautofix")
